@@ -202,7 +202,7 @@ function createNewProductCard(product) {
             return;
         }
 
-        window.location.href = `./pages/product-details.html?id=${product.id}`;
+        window.location.href = `pages/product-details.html?id=${product.id}`;
     });
     const addBtn = card.querySelector(".new-product-add");
 
@@ -580,7 +580,7 @@ function createCollectionCard(product) {
             event.stopPropagation();
             return;
         }
-        window.location.href = `./pages/product-details.html?id=${product.id}`;
+        window.location.href = `pages/product-details.html?id=${product.id}`;
     });
 
     const addBtn = card.querySelector(".collection-add");
